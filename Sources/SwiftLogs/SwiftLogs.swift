@@ -1,15 +1,15 @@
 import Foundation
 
 public struct Log {
-    static func info(_ message: String) {
+    public static func info(_ message: String) {
         log(message, level: "INFO")
     }
 
-    static func debug(_ message: String) {
+    public static func debug(_ message: String) {
         log(message, level: "DEBUG")
     }
     
-    static func error(_ message: String) {
+    public static func error(_ message: String) {
         log(message, level: "ERROR")
     }
 
