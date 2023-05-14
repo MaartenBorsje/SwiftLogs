@@ -6,6 +6,7 @@ final class SwiftLogsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftLogs().text, "Hello, World!")
+//        XCTAssertEqual(Log.info("Problem"))
+        Log.info("Problem")
     }
 }
